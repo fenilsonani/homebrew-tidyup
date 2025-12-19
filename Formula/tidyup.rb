@@ -1,24 +1,24 @@
 class Tidyup < Formula
   desc "Fast system cleanup tool with intelligent caching"
   homepage "https://github.com/fenilsonani/cleanup-cache"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/fenilsonani/cleanup-cache/releases/download/v0.5.0/tidyup-darwin-amd64.tar.gz"
-      sha256 "027945017a69b8df7d6768a409cbb29acd17d9b50c52186ce9c84268e4660b21"
+      url "https://github.com/fenilsonani/cleanup-cache/releases/download/v0.5.1/tidyup-darwin-amd64.tar.gz"
+      sha256 "48f9e85075cdd4768687c26a51c8d667bb1b09a10de52c528a50709eae1cf649"
     end
     on_arm do
-      url "https://github.com/fenilsonani/cleanup-cache/releases/download/v0.5.0/tidyup-darwin-arm64.tar.gz"
-      sha256 "04ca78e680654ecd1b9283bbad8e346e7bcc0e19b4add33bdd7fa9f28755d4f0"
+      url "https://github.com/fenilsonani/cleanup-cache/releases/download/v0.5.1/tidyup-darwin-arm64.tar.gz"
+      sha256 "3d3e2519602c5d53bec7c114dab6c92d9d689652d126a3ce76333ae976d529fa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/fenilsonani/cleanup-cache/releases/download/v0.5.0/tidyup-linux-amd64.tar.gz"
-      sha256 "185b42c401bf672ff4c0cf0e645458d7b5aee8dd030c4fe3241136884904022d"
+      url "https://github.com/fenilsonani/cleanup-cache/releases/download/v0.5.1/tidyup-linux-amd64.tar.gz"
+      sha256 "4636cce7696004432cea07cb045e5d489b891e97f22638d3c7a52ff7d0df919e"
     end
   end
 
